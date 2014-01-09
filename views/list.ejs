@@ -2,11 +2,75 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
+    <meta name="author" content="Masayuki IZUMI (a.k.a. izumin5210))">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>しらばすー</title>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">しらばす</a>
+      </div>
+      <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="" data-toggle="dropdown">1年生 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="?year=1&department=m">1M</a></li>
+              <li><a href="?year=1&department=e">1E</a></li>
+              <li><a href="?year=1&department=c">1C</a></li>
+              <li><a href="?year=1&department=a">1A</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="" data-toggle="dropdown">2年生 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="?year=2&department=m">2M</a></li>
+              <li><a href="?year=2&department=e">2E</a></li>
+              <li><a href="?year=2&department=c">2C</a></li>
+              <li><a href="?year=2&department=a">2A</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="" data-toggle="dropdown">3年生 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="?year=3&department=m">3M</a></li>
+              <li><a href="?year=3&department=e">3E</a></li>
+              <li><a href="?year=3&department=c">3C</a></li>
+              <li><a href="?year=3&department=a">3A</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="" data-toggle="dropdown">4年生 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="?year=4&department=m">4M</a></li>
+              <li><a href="?year=4&department=e&course=d">4ED</a></li>
+              <li><a href="?year=4&department=e&course=j">4EJ</a></li>
+              <li><a href="?year=4&department=c">4C</a></li>
+              <li><a href="?year=4&department=a">4A</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="" data-toggle="dropdown">5年生 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="?year=5&department=m">5M</a></li>
+              <li><a href="?year=5&department=e&course=d">5ED</a></li>
+              <li><a href="?year=5&department=e&course=j">5EJ</a></li>
+              <li><a href="?year=5&department=c">5C</a></li>
+              <li><a href="?year=5&department=a">5A</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <section class="course-list">
       <dl>
         <% for (i = 0; i < courses.length; i++) { %>
