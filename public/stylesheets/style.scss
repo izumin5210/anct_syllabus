@@ -62,14 +62,14 @@ html, body {
         font-size: 80%;
       }
       &:nth-child(4n+1), &:nth-child(4n+2) {
-        $a: 0.5;
+        $a: 0.7;
         &.m { background-color: rgba(153, 0, 0, $a);}
         &.e { background-color: rgba(204, 153, 0, $a);}
         &.c { background-color: rgba(0, 102, 204, $a);}
         &.a { background-color: rgba(0, 102, 0, $a);}
       }
       &:nth-child(4n+3), &:nth-child(4n+4) {
-        $a: 0.4;
+        $a: 0.5;
         &.m { background-color: rgba(153, 0, 0, $a);}
         &.e { background-color: rgba(204, 153, 0, $a);}
         &.c { background-color: rgba(0, 102, 204, $a);}

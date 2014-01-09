@@ -89,21 +89,21 @@ html, body {
     .course-list dl dt small, .course-list dl dd small {
       font-size: 80%; }
     .course-list dl dt:nth-child(4n+1).m, .course-list dl dt:nth-child(4n+2).m, .course-list dl dd:nth-child(4n+1).m, .course-list dl dd:nth-child(4n+2).m {
-      background-color: rgba(153, 0, 0, 0.5); }
+      background-color: rgba(153, 0, 0, 0.7); }
     .course-list dl dt:nth-child(4n+1).e, .course-list dl dt:nth-child(4n+2).e, .course-list dl dd:nth-child(4n+1).e, .course-list dl dd:nth-child(4n+2).e {
-      background-color: rgba(204, 153, 0, 0.5); }
+      background-color: rgba(204, 153, 0, 0.7); }
     .course-list dl dt:nth-child(4n+1).c, .course-list dl dt:nth-child(4n+2).c, .course-list dl dd:nth-child(4n+1).c, .course-list dl dd:nth-child(4n+2).c {
-      background-color: rgba(0, 102, 204, 0.5); }
+      background-color: rgba(0, 102, 204, 0.7); }
     .course-list dl dt:nth-child(4n+1).a, .course-list dl dt:nth-child(4n+2).a, .course-list dl dd:nth-child(4n+1).a, .course-list dl dd:nth-child(4n+2).a {
-      background-color: rgba(0, 102, 0, 0.5); }
+      background-color: rgba(0, 102, 0, 0.7); }
     .course-list dl dt:nth-child(4n+3).m, .course-list dl dt:nth-child(4n+4).m, .course-list dl dd:nth-child(4n+3).m, .course-list dl dd:nth-child(4n+4).m {
-      background-color: rgba(153, 0, 0, 0.4); }
+      background-color: rgba(153, 0, 0, 0.5); }
     .course-list dl dt:nth-child(4n+3).e, .course-list dl dt:nth-child(4n+4).e, .course-list dl dd:nth-child(4n+3).e, .course-list dl dd:nth-child(4n+4).e {
-      background-color: rgba(204, 153, 0, 0.4); }
+      background-color: rgba(204, 153, 0, 0.5); }
     .course-list dl dt:nth-child(4n+3).c, .course-list dl dt:nth-child(4n+4).c, .course-list dl dd:nth-child(4n+3).c, .course-list dl dd:nth-child(4n+4).c {
-      background-color: rgba(0, 102, 204, 0.4); }
+      background-color: rgba(0, 102, 204, 0.5); }
     .course-list dl dt:nth-child(4n+3).a, .course-list dl dt:nth-child(4n+4).a, .course-list dl dd:nth-child(4n+3).a, .course-list dl dd:nth-child(4n+4).a {
-      background-color: rgba(0, 102, 0, 0.4); }
+      background-color: rgba(0, 102, 0, 0.5); }
     .course-list dl dt ul, .course-list dl dd ul {
       margin: 0;
       padding: 0;
