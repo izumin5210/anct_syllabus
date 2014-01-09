@@ -14,34 +14,29 @@ html, body {
       height: 100%;
       padding: 0;
       margin: 0;
+      &.d, &.j { width: 10%; }
       a {
-        display: inline-block;
+        display: block;
         width: 100%;
         height: 100%;
         text-align: center;
         margin: -1px;
+        padding-top: 16px;
         border: 1px solid rgba(255, 255, 255, 0.6);
         &:link, &:visited, &:hover, &:active {
             color: #fff;
-            font-size: 200%;
+            font-size: 100%;
             text-decoration: none;
         }
         &:hover, &:active {
           opacity: 0.5;
         }
       }
-      @for $i from 1 through 5 {
-        /* $a: 0.05 * $i + 0.2; */
-        $a: 0.5;
-        &.m:nth-child(#{$i}) a { background-color: rgba(153, 0, 0, $a);}
-        &.e:nth-child(#{$i}) a { background-color: rgba(204, 153, 0, $a);}
-        &.c:nth-child(#{$i}) a { background-color: rgba(0, 102, 204, $a);}
-        &.a:nth-child(#{$i}) a { background-color: rgba(0, 102, 0, $a);}
-      }
-      &.active {
-        box-shadow: 0 0 8px #000 inset;
-        opacity: 0.4;
-      }
+      $a: 0.5;
+      &.m a { background-color: rgba(153, 0, 0, $a);}
+      &.e a { background-color: rgba(204, 153, 0, $a);}
+      &.c a { background-color: rgba(0, 102, 204, $a);}
+      &.a a { background-color: rgba(0, 102, 0, $a);}
     }
   }
 }

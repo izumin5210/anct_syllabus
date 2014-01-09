@@ -13,68 +13,31 @@ html, body {
       width: 20%;
       height: 100%;
       padding: 0;
-      margin: 0;
-      /* $a: 0.05 * $i + 0.2; */
-      /* $a: 0.05 * $i + 0.2; */
-      /* $a: 0.05 * $i + 0.2; */
-      /* $a: 0.05 * $i + 0.2; */
-      /* $a: 0.05 * $i + 0.2; */ }
+      margin: 0; }
+      .nav-filter .class-list li.d, .nav-filter .class-list li.j {
+        width: 10%; }
       .nav-filter .class-list li a {
-        display: inline-block;
+        display: block;
         width: 100%;
         height: 100%;
         text-align: center;
         margin: -1px;
+        padding-top: 16px;
         border: 1px solid rgba(255, 255, 255, 0.6); }
         .nav-filter .class-list li a:link, .nav-filter .class-list li a:visited, .nav-filter .class-list li a:hover, .nav-filter .class-list li a:active {
           color: white;
-          font-size: 200%;
+          font-size: 100%;
           text-decoration: none; }
         .nav-filter .class-list li a:hover, .nav-filter .class-list li a:active {
           opacity: 0.5; }
-      .nav-filter .class-list li.m:nth-child(1) a {
+      .nav-filter .class-list li.m a {
         background-color: rgba(153, 0, 0, 0.5); }
-      .nav-filter .class-list li.e:nth-child(1) a {
+      .nav-filter .class-list li.e a {
         background-color: rgba(204, 153, 0, 0.5); }
-      .nav-filter .class-list li.c:nth-child(1) a {
+      .nav-filter .class-list li.c a {
         background-color: rgba(0, 102, 204, 0.5); }
-      .nav-filter .class-list li.a:nth-child(1) a {
+      .nav-filter .class-list li.a a {
         background-color: rgba(0, 102, 0, 0.5); }
-      .nav-filter .class-list li.m:nth-child(2) a {
-        background-color: rgba(153, 0, 0, 0.5); }
-      .nav-filter .class-list li.e:nth-child(2) a {
-        background-color: rgba(204, 153, 0, 0.5); }
-      .nav-filter .class-list li.c:nth-child(2) a {
-        background-color: rgba(0, 102, 204, 0.5); }
-      .nav-filter .class-list li.a:nth-child(2) a {
-        background-color: rgba(0, 102, 0, 0.5); }
-      .nav-filter .class-list li.m:nth-child(3) a {
-        background-color: rgba(153, 0, 0, 0.5); }
-      .nav-filter .class-list li.e:nth-child(3) a {
-        background-color: rgba(204, 153, 0, 0.5); }
-      .nav-filter .class-list li.c:nth-child(3) a {
-        background-color: rgba(0, 102, 204, 0.5); }
-      .nav-filter .class-list li.a:nth-child(3) a {
-        background-color: rgba(0, 102, 0, 0.5); }
-      .nav-filter .class-list li.m:nth-child(4) a {
-        background-color: rgba(153, 0, 0, 0.5); }
-      .nav-filter .class-list li.e:nth-child(4) a {
-        background-color: rgba(204, 153, 0, 0.5); }
-      .nav-filter .class-list li.c:nth-child(4) a {
-        background-color: rgba(0, 102, 204, 0.5); }
-      .nav-filter .class-list li.a:nth-child(4) a {
-        background-color: rgba(0, 102, 0, 0.5); }
-      .nav-filter .class-list li.m:nth-child(5) a {
-        background-color: rgba(153, 0, 0, 0.5); }
-      .nav-filter .class-list li.e:nth-child(5) a {
-        background-color: rgba(204, 153, 0, 0.5); }
-      .nav-filter .class-list li.c:nth-child(5) a {
-        background-color: rgba(0, 102, 204, 0.5); }
-      .nav-filter .class-list li.a:nth-child(5) a {
-        background-color: rgba(0, 102, 0, 0.5); }
-      .nav-filter .class-list li.active {
-        box-shadow: 0 0 8px black inset;
-        opacity: 0.4; }
 
 .navbar-transparent {
   /* background-color: rgba(248, 248, 248, 0.5) !important; */
