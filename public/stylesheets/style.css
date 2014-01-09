@@ -90,9 +90,10 @@ html, body {
       list-style: none;
       line-height: 1.8em; }
       .course-list dl dt strong, .course-list dl dd strong {
-        font-size: 200%;
+        font-size: 160%;
         font-weight: normal; }
       .course-list dl dt small, .course-list dl dd small {
+        margin-left: 1em;
         font-size: 80%; }
       .course-list dl dt:nth-child(4n+1).m, .course-list dl dt:nth-child(4n+2).m, .course-list dl dd:nth-child(4n+1).m, .course-list dl dd:nth-child(4n+2).m {
         background-color: rgba(153, 0, 0, 0.7); }
@@ -115,7 +116,7 @@ html, body {
         padding: 0;
         list-style: none; }
     .course-list dl dt {
-      padding: 16px 32px 4px; }
+      padding: 32px 32px 4px; }
     .course-list dl dd {
-      padding: 4px 32px 16px;
+      padding: 4px 32px 32px;
       font-size: 80%; }

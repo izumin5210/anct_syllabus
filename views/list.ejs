@@ -75,8 +75,8 @@
       <dl>
         <% for (i = 0; i < courses.length; i++) { %>
         <dt class="<%= courses[i].eDept() %>">
-          <strong><%= courses[i].title %></strong>　<%= courses[i].lectures.join('，')%>
-          <small>（<%= courses[i].term %> <%= courses[i].divide %> <%= courses[i].required %> <%= courses[i].credit %>単位）</small>
+          <strong><%= courses[i].title %></strong>
+          <small><%= courses[i].lectures.join('，')%>（<%= courses[i].term %> <%= courses[i].divide %> <%= courses[i].required %> <%= courses[i].credit %>単位）</small>
         </dt>
         <dd class="<%= courses[i].eDept() %>">
           <ul>
