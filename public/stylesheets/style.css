@@ -28,7 +28,7 @@ html, body {
         border: 1px solid rgba(255, 255, 255, 0.6); }
         .nav-filter .class-list li a:link, .nav-filter .class-list li a:visited, .nav-filter .class-list li a:hover, .nav-filter .class-list li a:active {
           color: white;
-          font-size: 100%;
+          font-size: 500%;
           text-decoration: none; }
         .nav-filter .class-list li a:hover, .nav-filter .class-list li a:active {
           opacity: 0.5; }
@@ -82,7 +82,7 @@ html, body {
   .course-list dl dt, .course-list dl dd {
     color: white;
     list-style: none;
-    line-height: 1.6em; }
+    line-height: 1.8em; }
     .course-list dl dt strong, .course-list dl dd strong {
       font-size: 200%;
       font-weight: normal; }
@@ -111,4 +111,5 @@ html, body {
   .course-list dl dt {
     padding: 16px 32px 4px; }
   .course-list dl dd {
-    padding: 4px 32px 16px; }
+    padding: 4px 32px 16px;
+    font-size: 80%; }
