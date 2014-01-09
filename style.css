@@ -1,0 +1,83 @@
+.nav-filter {
+  height: 100%; }
+  .nav-filter .class-list {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+    .nav-filter .class-list li {
+      display: inline-block;
+      width: 20%;
+      height: 25%;
+      line-height: 30px;
+      padding: 0;
+      margin: 0; }
+      .nav-filter .class-list li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center; }
+        .nav-filter .class-list li a:link, .nav-filter .class-list li a:visited, .nav-filter .class-list li a:hover, .nav-filter .class-list li a:active {
+          color: white;
+          font-size: 100%;
+          text-decoration: none; }
+      .nav-filter .class-list li.m:nth-child(1) {
+        background-color: rgba(153, 0, 0, 0.25); }
+      .nav-filter .class-list li.e:nth-child(1) {
+        background-color: rgba(204, 153, 0, 0.25); }
+      .nav-filter .class-list li.c:nth-child(1) {
+        background-color: rgba(0, 102, 204, 0.25); }
+      .nav-filter .class-list li.a:nth-child(1) {
+        background-color: rgba(0, 102, 0, 0.25); }
+      .nav-filter .class-list li.m:nth-child(2) {
+        background-color: rgba(153, 0, 0, 0.3); }
+      .nav-filter .class-list li.e:nth-child(2) {
+        background-color: rgba(204, 153, 0, 0.3); }
+      .nav-filter .class-list li.c:nth-child(2) {
+        background-color: rgba(0, 102, 204, 0.3); }
+      .nav-filter .class-list li.a:nth-child(2) {
+        background-color: rgba(0, 102, 0, 0.3); }
+      .nav-filter .class-list li.m:nth-child(3) {
+        background-color: rgba(153, 0, 0, 0.35); }
+      .nav-filter .class-list li.e:nth-child(3) {
+        background-color: rgba(204, 153, 0, 0.35); }
+      .nav-filter .class-list li.c:nth-child(3) {
+        background-color: rgba(0, 102, 204, 0.35); }
+      .nav-filter .class-list li.a:nth-child(3) {
+        background-color: rgba(0, 102, 0, 0.35); }
+      .nav-filter .class-list li.m:nth-child(4) {
+        background-color: rgba(153, 0, 0, 0.4); }
+      .nav-filter .class-list li.e:nth-child(4) {
+        background-color: rgba(204, 153, 0, 0.4); }
+      .nav-filter .class-list li.c:nth-child(4) {
+        background-color: rgba(0, 102, 204, 0.4); }
+      .nav-filter .class-list li.a:nth-child(4) {
+        background-color: rgba(0, 102, 0, 0.4); }
+      .nav-filter .class-list li.m:nth-child(5) {
+        background-color: rgba(153, 0, 0, 0.45); }
+      .nav-filter .class-list li.e:nth-child(5) {
+        background-color: rgba(204, 153, 0, 0.45); }
+      .nav-filter .class-list li.c:nth-child(5) {
+        background-color: rgba(0, 102, 204, 0.45); }
+      .nav-filter .class-list li.a:nth-child(5) {
+        background-color: rgba(0, 102, 0, 0.45); }
+      .nav-filter .class-list li.active {
+        box-shadow: 0 0 8px black inset;
+        opacity: 0.4; }
+
+.course-list {
+  margin: 0;
+  padding: 0; }
+  .course-list li {
+    list-style: none; }
+    .course-list li:nth-child(odd) {
+      opacity: 0.2; }
+    .course-list li:nth-child(even) {
+      opacity: 0.1; }
+    .course-list li.m {
+      background-color: #990000; }
+    .course-list li.e {
+      background-color: #cc9900; }
+    .course-list li.c {
+      background-color: #0066cc; }
+    .course-list li.a {
+      background-color: #006600; }

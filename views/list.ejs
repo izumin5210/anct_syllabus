@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>しらばすー</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <section class="course-list">
+      <dl>
+        <% for (i = 0; i < courses.length; i++) { %>
+        <dt class="<%= courses[i].eDept() %>">
+          <strong><%= courses[i].title %></strong>　<%= courses[i].lectures.join('，')%>
+          <small>（<%= courses[i].term %> <%= courses[i].divide %> <%= courses[i].required %> <%= courses[i].credit %>単位）</small>
+        </dt>
+        <dd class="<%= courses[i].eDept() %>">
+          <ul>
+            <li>単位を落とすには：<%= courses[i].failureAbsence %></li>
+            <li><%= courses[i].evaluation %></li>
+          </ul>
+        </dd>
+        <% } %>
+      </dl>
+    </section>
+    <script src="/javascripts/jquery-2.0.3.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/underscore-min.js"></script>
+    <script src="/javascripts/backbone-min.js"></script>
+  </body>
+</html>

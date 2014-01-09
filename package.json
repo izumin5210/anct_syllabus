@@ -1,0 +1,20 @@
+{
+  "name": "anct_syllabus",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "ejs": "*",
+    "coffee-script": "~1.6.3",
+    "cheerio": "~0.13.1",
+    "underscore": "~1.5.2",
+    "node-sass": "~0.7.0"
+  },
+  "engines": {
+    "node": "0.10.24",
+    "npm": "1.3.21"
+  }
+}
